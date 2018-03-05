@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Log in</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximun-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="log">
+
+    <!-- FIXED TRANSPARENT HEADER -->
+    <header class="fixed-header">
+        <div class="web-title">
+            <h1>Rosemary Makeup</h1>
+        </div>
+
+        <input class="search" type="search" placeholder="Search">
+        <span>Cart</span>
+
+    </header>
+
+    <!-- LINK PARA "BACK TO TOP" -->
+    <a href="" id="top"></a>
+
+    <!-- VUELTA AL INDICE -->
+    <div id="vuelta">
+        <a href="./index.html">
+            < Back to main page </a>
+    </div>
+
+    <!-- LOGIN -->
+    <form novalidate class="login" action="">
+        <h2>Already a member</h2>
+        <div class="s1">
+            <div>
+                <p> User:
+                    <input type="text" name="user" size="30" maxlength="15" required> </p>
+                <p>
+                    Password:
+                    <input type="password" name="psw" size="30" maxlength="15" required>
+                </p>
+
+                <p>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me</p>
+                <input type="submit" value="Log in">
+
+
+            </div>
+        </div>
+    </form>
+
+
+    <!-- REGISTER -->
+    <form novalidate class="register" action="">
+        <h2>Join our family!</h2>
+        <div class="s1">
+            <p> User:
+                <input type="text" name="user" size="30" maxlength="15" required> </p>
+
+            <p> First Name:
+                <input type="text" name="name" size="30" maxlength="15" required> </p>
+            <p> Last Name:
+                <input type="text" name="lname" size="30" maxlength="15" required> </p>
+            <p> Birthday:
+                <input type="date" name="bday" />
+            </p>
+            <br>
+
+            <p> Email:
+                <input type="email" name="user" size="30" maxlength="30" required>
+            </p>
+            <p>
+                Confirm Email:
+                <input type="email" name="user" size="30" maxlength="30" required>
+            </p>
+            <br>
+            <p>
+                Password:
+                <input type="password" name="psw" size="30" maxlength="15" required>
+            </p>
+            <p>
+                Confirm Password:
+                <input type="password" name="psw" size="30" maxlength="15" required>
+            </p>
+            <br>
+            <p>
+            <input type="checkbox" checked="checked" name="news"> Yes! I want to receive emails with the latest products and news from 
+            Rosemary Makeup. </p>
+            <p>
+            <input type="checkbox" checked="checked" name="offers"> Yes! I want to receive emails with offers and promotions from
+            Rosemary Makeup. </p>
+
+            <input type="submit" value="Register">
+        </div>
+    </form>
+
+
+
+    <br>
+    <br>
+
+ 
+
+    <!-- FOOTER -->
+    <footer>
+
+        <span class="web-title">Rosemary Makeup</span>
+
+        <a href="#top"> Back to top</a>
+
+        @ All rigths reserved
+
+    </footer>
+
+
+</body>
+
+</html>
